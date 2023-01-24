@@ -73,4 +73,7 @@ Library/ArtifactDB
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
  Library/ArtifactDB
+=======
+>>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc

@@ -1638,15 +1638,9 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
   m_IsActive: 1
 --- !u!114 &1128214079
 MonoBehaviour:
-=======
-  m_IsActive: 0
---- !u!81 &963194226
-AudioListener:
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1674,55 +1668,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &1128214078
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1128214080}
-  - component: {fileID: 1128214079}
-  m_Layer: 0
-  m_Name: XR Interaction Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1128214079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128214078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_StartingHoverFilters: []
-  m_StartingSelectFilters: []
---- !u!4 &1128214080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128214078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.200001, y: 16.55, z: -37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
 --- !u!1 &1265910291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,11 +1770,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_TeleportationProvider: {fileID: 0}
-=======
-  m_TeleportationProvider: {fileID: 1423707076}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_MatchOrientation: 0
   m_MatchDirectionalInput: 0
   m_TeleportTrigger: 0
@@ -1914,11 +1855,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 6
-=======
-  m_RootOrder: 7
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1296031463
 GameObject:
@@ -2022,11 +1959,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_TeleportationProvider: {fileID: 0}
-=======
-  m_TeleportationProvider: {fileID: 1423707076}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_MatchOrientation: 0
   m_MatchDirectionalInput: 0
   m_TeleportTrigger: 0
@@ -2111,11 +2044,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 7
-=======
-  m_RootOrder: 8
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423707074
 GameObject:
@@ -2127,12 +2056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423707078}
   - component: {fileID: 1423707077}
-<<<<<<< HEAD
   - component: {fileID: 1423707080}
-=======
-  - component: {fileID: 1423707076}
-  - component: {fileID: 1423707079}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_Layer: 0
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -2140,23 +2064,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
---- !u!114 &1423707076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423707074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 1423707077}
-  m_DelayTime: 0.1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
 --- !u!114 &1423707077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2184,15 +2091,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1423707080
-=======
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1423707079
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2201,7 +2102,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1423707074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2219,29 +2119,10 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 17b726d9-3c63-4e8c-837d-ce995900687a
-=======
-  m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 0}
-  m_TurnAmount: 20
-  m_DebounceTime: 0.1
-  m_EnableTurnLeftRight: 1
-  m_EnableTurnAround: 1
-  m_DelayTime: 0.1
-  m_LeftHandSnapTurnAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Left Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 9fc09920-63b1-4266-ae3d-841aa7964b48
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-<<<<<<< HEAD
     m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightHandMoveAction:
     m_UseReference: 1
@@ -2250,25 +2131,11 @@ MonoBehaviour:
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 90eb7079-5c9f-4af2-90e8-2f17b4052e87
-=======
-    m_Reference: {fileID: 0}
-  m_RightHandSnapTurnAction:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Right Hand Snap Turn
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: b40699c8-048f-4b3a-b3e5-e04aa79af4f6
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-<<<<<<< HEAD
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-=======
-    m_Reference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
 --- !u!1 &1927545124
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,11 +2280,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
   - {fileID: 2100000, guid: c2dad4998f573e34498ae8b04102da23, type: 2}
-=======
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2455,21 +2318,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927545124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 5, y: -4.5, z: 5.5}
   m_LocalScale: {x: 4, y: 1, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-=======
-  m_LocalPosition: {x: 17.9, y: -4.5, z: 8.8}
-  m_LocalScale: {x: 7, y: 1, z: 6}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1932202992
 GameObject:
@@ -2530,21 +2384,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932202992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
   m_LocalPosition: {x: 3.89, y: -2.9223998, z: -4.08}
-=======
-  m_LocalPosition: {x: 19.253752, y: -2.9223998, z: -10.65875}
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 446202513}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 5
-=======
-  m_RootOrder: 6
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1932202996
 MonoBehaviour:
@@ -2604,23 +2450,7 @@ MonoBehaviour:
     m_ActionId: e6005f29-e4c1-4f3b-8bf7-3a28bab5ca9c
     m_ActionName: XRI LeftHand Interaction/Select Value
   - m_PersistentCalls:
-<<<<<<< HEAD
       m_Calls: []
-=======
-      m_Calls:
-      - m_Target: {fileID: 1932202997}
-        m_TargetAssemblyTypeName: Movement, Assembly-CSharp
-        m_MethodName: SayHi
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
     m_ActionId: 0c0991c5-d329-4afc-8892-1076b440477c
     m_ActionName: XRI LeftHand Interaction/Activate
   - m_PersistentCalls:

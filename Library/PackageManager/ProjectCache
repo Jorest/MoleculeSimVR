@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/mimes/Documents/Unity Projects/MoleculeSimVR/Packages/manifest.json
+    m_FilePath: C:/Users/mimes/Documents/GitHub/MoleculeSimVR/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638024788022421601
-    m_Hash: 2616899438
+      ticks: 638101678895005189
+    m_Hash: 1537631155
   m_LockFileStatus:
-    m_FilePath: C:/Users/mimes/Documents/Unity Projects/MoleculeSimVR/Packages/packages-lock.json
+    m_FilePath: C:/Users/mimes/Documents/GitHub/MoleculeSimVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638024788022441548
-    m_Hash: 1618619944
+      ticks: 638101678895005189
+    m_Hash: 41987487
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/mimes/Documents/Unity Projects/MoleculeSimVR/Packages
+m_ProjectPath: C:/Users/mimes/Documents/GitHub/MoleculeSimVR/Packages
 m_EditorVersion: 2021.3.5f1 (40eb3a945986)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@1.15.18
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.15.18
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.collab-proxy@1.15.18
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.collab-proxy@1.15.18
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -96,20 +96,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.17.7
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.17.7
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -117,20 +104,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 2.0.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 2.0.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -140,20 +114,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.17.7
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.17.7
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -161,20 +122,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 2.0.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 2.0.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -230,7 +178,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -316,7 +264,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.feature.vr@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.feature.vr@1.0.0
   assetPath: Packages/com.unity.feature.vr
   name: com.unity.feature.vr
   displayName: VR
@@ -399,7 +347,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.14
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.ide.rider@3.0.14
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.ide.rider@3.0.14
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -448,47 +396,15 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     - 3.0.16
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.0.17
     - 3.0.18
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.0.17
-    - 3.0.18
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 3.0.14
     - 3.0.15
     - 3.0.16
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.0.17
     - 3.0.18
     verified: 3.0.18
-=======
-    verified: 3.0.16
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    verified: 3.0.16
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.0.17
-    - 3.0.18
-    verified: 3.0.18
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    verified: 3.0.16
->>>>>>> parent of 9d197210 (bruh moment from git)
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -521,7 +437,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.15
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -530,23 +446,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: asset
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: asset
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -573,39 +473,12 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     - 2.0.16
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     - 2.0.17
     compatible:
     - 2.0.15
     - 2.0.16
     - 2.0.17
     verified: 2.0.17
-<<<<<<< HEAD
-=======
-    compatible:
-    - 2.0.15
-    - 2.0.16
-    verified: 2.0.16
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    compatible:
-    - 2.0.15
-    - 2.0.16
-    verified: 2.0.16
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    compatible:
-    - 2.0.15
-    - 2.0.16
-    verified: 2.0.16
->>>>>>> parent of 9d197210 (bruh moment from git)
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -626,23 +499,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   hideInEditor: 0
-=======
-  hideInEditor: 1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  hideInEditor: 0
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637841884840000000
   documentationUrl: 
@@ -660,7 +517,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -721,7 +578,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -771,58 +628,20 @@ m_ResolvedPackages:
     - 1.1.31
     - 1.1.33
     - 1.3.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     - 1.3.1
     - 1.3.2
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
     - 1.1.33
     - 1.3.0
-<<<<<<< HEAD
->>>>>>> parent of 6bc6ea5a (same)
     - 1.3.1
     - 1.3.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
-<<<<<<< HEAD
-=======
-    - 2.0.1-exp.1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    - 2.0.1-exp.1
->>>>>>> parent of 9d197210 (bruh moment from git)
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
-    compatible:
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - 1.3.1
-    - 1.3.2
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-=======
-    - 2.0.1-exp.1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    - 2.0.1-exp.1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    - 2.0.1-exp.1
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.33
@@ -868,7 +687,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -877,23 +696,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: asset
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: asset
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1001,40 +804,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.2.0-pre.4
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.2.0-pre.4
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.2.0-pre.4
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.2.0-pre.4
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1059,23 +836,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   hideInEditor: 0
-=======
-  hideInEditor: 1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  hideInEditor: 0
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1093,7 +854,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1182,20 +943,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.8.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.8.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -1203,20 +951,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.8.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.8.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1267,7 +1002,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1329,7 +1064,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.8
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.visualscripting@1.7.8
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.visualscripting@1.7.8
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1338,23 +1073,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: tool
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: tool
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1387,31 +1106,10 @@ m_ResolvedPackages:
     - 1.7.7
     - 1.7.8
     - 1.8.0-pre.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     - 1.8.0
     compatible:
     - 1.7.8
     - 1.8.0
-<<<<<<< HEAD
-=======
-    compatible:
-    - 1.7.8
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    compatible:
-    - 1.7.8
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    compatible:
-    - 1.7.8
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -1453,7 +1151,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.2.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.interaction.toolkit@2.2.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.interaction.toolkit@2.2.0
   assetPath: Packages/com.unity.xr.interaction.toolkit
   name: com.unity.xr.interaction.toolkit
   displayName: XR Interaction Toolkit
@@ -1494,35 +1192,11 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.2
     - 2.0.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     - 2.0.4
     - 2.1.0-pre.1
     - 2.1.1
     - 2.2.0
     - 2.3.0-pre.1
-<<<<<<< HEAD
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1545,35 +1219,11 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.2
     - 2.0.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     - 2.0.4
     - 2.1.0-pre.1
     - 2.1.1
     - 2.2.0
     - 2.3.0-pre.1
-<<<<<<< HEAD
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    - 2.1.0-pre.1
-    - 2.1.1
-    - 2.2.0
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 
   dependencies:
   - name: com.unity.inputsystem
@@ -1649,7 +1299,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.2.1
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.management@4.2.1
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.management@4.2.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1658,23 +1308,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: asset
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: asset
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
@@ -1731,35 +1365,11 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.2.0
     - 4.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     - 4.3.1
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
-<<<<<<< HEAD
-=======
-    compatible:
-    - 4.2.0
-    - 4.2.1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    compatible:
-    - 4.2.0
-    - 4.2.1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    compatible:
-    - 4.2.0
-    - 4.2.1
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1802,23 +1412,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   hideInEditor: 0
-=======
-  hideInEditor: 1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  hideInEditor: 0
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637769778170000000
   documentationUrl: 
@@ -1836,7 +1430,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.4.2
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.openxr@1.4.2
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.openxr@1.4.2
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -1872,40 +1466,14 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     - 1.5.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.6.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.6.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.4.2
     - 1.5.0-exp.1
     - 1.5.0
     - 1.5.1
     - 1.5.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.6.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.6.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.4.2
   dependencies:
   - name: com.unity.xr.management
@@ -1971,7 +1539,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2019,7 +1587,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2066,7 +1634,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2114,7 +1682,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2162,7 +1730,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2210,7 +1778,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2262,7 +1830,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2318,7 +1886,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2367,7 +1935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2415,7 +1983,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2463,7 +2031,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2511,7 +2079,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2559,7 +2127,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2607,7 +2175,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2659,7 +2227,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2707,7 +2275,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2763,7 +2331,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2814,7 +2382,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2862,7 +2430,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2926,7 +2494,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2974,7 +2542,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3030,7 +2598,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3078,7 +2646,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3134,7 +2702,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3190,7 +2758,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3246,7 +2814,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3318,7 +2886,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3370,7 +2938,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3430,7 +2998,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3492,7 +3060,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3540,7 +3108,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3600,7 +3168,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3652,7 +3220,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3711,7 +3279,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.9
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.9
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -3807,7 +3375,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.inputsystem@1.3.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.inputsystem@1.3.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -3858,39 +3426,13 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.4.4
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.4.4
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.3.0
     - 1.4.1
     - 1.4.2
     - 1.4.3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.4.4
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.4.4
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.3.0
   dependencies:
   - name: com.unity.modules.uielements
@@ -3940,7 +3482,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.subsystemregistration@1.1.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.subsystemregistration@1.1.0
   assetPath: Packages/com.unity.subsystemregistration
   name: com.unity.subsystemregistration
   displayName: Subsystem Registration
@@ -4005,7 +3547,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.core-utils@2.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.core-utils@2.0.0
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4014,23 +3556,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: asset
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: asset
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -4042,12 +3568,6 @@ m_ResolvedPackages:
   status: 4
   errors: []
   versions:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 6bc6ea5a (same)
     all:
     - 2.0.0-pre.3
     - 2.0.0-pre.5
@@ -4070,21 +3590,6 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0-pre.1
     - 2.2.0-pre.2
-<<<<<<< HEAD
-=======
-    all: []
-    compatible: []
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-    all: []
-    compatible: []
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
->>>>>>> parent of 6bc6ea5a (same)
-=======
-    all: []
-    compatible: []
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 
   dependencies:
   - name: com.unity.modules.xr
@@ -4113,33 +3618,9 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637810557940000000
-=======
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637810557940000000
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
->>>>>>> parent of 9d197210 (bruh moment from git)
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4155,7 +3636,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4215,7 +3696,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.1
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.xr.oculus@3.0.1
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.xr.oculus@3.0.1
   assetPath: Packages/com.unity.xr.oculus
   name: com.unity.xr.oculus
   displayName: Oculus XR Plugin
@@ -4284,20 +3765,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.4
     - 2.0.0-preview.5
     - 2.0.2-preview.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 2.2.0-preview.1
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 2.2.0-preview.1
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     - 3.0.0-pre.1
     - 3.0.0-pre.2
     - 3.0.0-pre.4
@@ -4306,43 +3774,15 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.1.1
     - 3.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.2.2-pre.1
     - 3.2.2
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.2.2-pre.1
-    - 3.2.2
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 3.0.1
     - 3.0.2
     - 3.1.1
     - 3.2.1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 3.2.2-pre.1
     - 3.2.2
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 3.2.2-pre.1
-    - 3.2.2
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 3.0.2
   dependencies:
   - name: com.unity.xr.management
@@ -4397,7 +3837,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4455,7 +3895,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.1
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.performance.profile-analyzer@1.1.1
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4518,7 +3958,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4527,23 +3967,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   type: asset
-=======
-  type: 
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  type: asset
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  type: 
->>>>>>> parent of 9d197210 (bruh moment from git)
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4578,22 +4002,8 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.2.1
     - 1.2.2
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.2.1
-    - 1.2.2
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.0.1
     - 1.1.0
@@ -4606,22 +4016,8 @@ m_ResolvedPackages:
     - 1.2.0-exp.6
     - 1.2.0-exp.7
     - 1.2.0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.2.1
     - 1.2.2
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.2.1
-    - 1.2.2
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -4651,23 +4047,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   hideInEditor: 0
-=======
-  hideInEditor: 1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-  hideInEditor: 0
->>>>>>> parent of 6bc6ea5a (same)
-=======
-  hideInEditor: 1
->>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637594767130000000
   documentationUrl: 
@@ -4685,7 +4065,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.4.0
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.services.core@1.4.0
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.services.core@1.4.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4720,44 +4100,16 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.5.2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.6.0
     - 1.7.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.6.0
-    - 1.7.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.4.0
     - 1.4.1
     - 1.4.2
     - 1.4.3
     - 1.5.2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     - 1.6.0
     - 1.7.0
-=======
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
-=======
-    - 1.6.0
-    - 1.7.0
->>>>>>> parent of 6bc6ea5a (same)
-=======
->>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -4799,7 +4151,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.3
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.settings-manager@1.0.3
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.settings-manager@1.0.3
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4856,7 +4208,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: C:\Users\mimes\Documents\Unity Projects\MoleculeSimVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: C:\Users\mimes\Documents\GitHub\MoleculeSimVR\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json

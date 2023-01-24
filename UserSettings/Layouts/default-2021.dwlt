@@ -20,10 +20,14 @@ MonoBehaviour:
     height: 1357
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Game
 =======
   m_Title: Inspector
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of 9d197210 (bruh moment from git)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -124,10 +128,14 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 110
 =======
   controlID: 26
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  controlID: 99
+>>>>>>> parent of 9d197210 (bruh moment from git)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,10 +161,14 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 111
 =======
   controlID: 27
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  controlID: 21
+>>>>>>> parent of 9d197210 (bruh moment from git)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,6 +194,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 112
 =======
     height: 1016
@@ -190,6 +203,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 28
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  controlID: 22
+>>>>>>> parent of 9d197210 (bruh moment from git)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1591,10 +1607,11 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Target: {x: 0.14376348, y: -0.24198547, z: 0.03625868, w: 0.9589119}
     speed: 2
-    m_Value: {x: 0.14375979, y: -0.24197924, z: 0.036257744, w: 0.9588872}
+    m_Value: {x: 0.14519794, y: -0.24192458, z: 0.03662071, w: 0.9586705}
   m_Size:
     m_Target: 20.485281
     speed: 2
+<<<<<<< HEAD
     m_Value: 20.485281
 =======
     m_Target: {x: -0.093216166, y: -0.68526995, z: 0.089105226, w: -0.7168129}
@@ -1605,6 +1622,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 31.290411
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    m_Value: 18.793837
+>>>>>>> parent of 9d197210 (bruh moment from git)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1987,12 +2007,16 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
 =======
     m_SelectedInstanceIDs: f0610000
     m_LastClickedInstanceID: 25072
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> parent of 9d197210 (bruh moment from git)
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

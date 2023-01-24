@@ -97,9 +97,12 @@ m_ResolvedPackages:
     - 1.17.2
     - 1.17.6
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.17.7
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -108,9 +111,12 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.0.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -121,9 +127,12 @@ m_ResolvedPackages:
     - 1.17.2
     - 1.17.6
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.17.7
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -132,9 +141,12 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.0.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -409,14 +421,18 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 3.0.17
     - 3.0.18
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 3.0.14
     - 3.0.15
     - 3.0.16
+<<<<<<< HEAD
 <<<<<<< HEAD
     - 3.0.17
     - 3.0.18
@@ -424,6 +440,9 @@ m_ResolvedPackages:
 =======
     verified: 3.0.16
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    verified: 3.0.16
+>>>>>>> parent of 9d197210 (bruh moment from git)
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -466,10 +485,14 @@ m_ResolvedPackages:
     url: 
   category: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: asset
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -497,6 +520,7 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.0.17
     compatible:
     - 2.0.15
@@ -509,6 +533,12 @@ m_ResolvedPackages:
     - 2.0.16
     verified: 2.0.16
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    compatible:
+    - 2.0.15
+    - 2.0.16
+    verified: 2.0.16
+>>>>>>> parent of 9d197210 (bruh moment from git)
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -530,10 +560,14 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   hideInEditor: 0
 =======
   hideInEditor: 1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  hideInEditor: 1
+>>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637841884840000000
   documentationUrl: 
@@ -663,19 +697,6 @@ m_ResolvedPackages:
     - 1.1.33
     - 1.3.0
 <<<<<<< HEAD
-    - 1.3.1
-    - 1.3.2
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-=======
-    - 2.0.1-exp.1
->>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
-    compatible:
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
 <<<<<<< HEAD
     - 1.3.1
     - 1.3.2
@@ -684,6 +705,27 @@ m_ResolvedPackages:
 =======
     - 2.0.1-exp.1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    - 2.0.1-exp.1
+>>>>>>> parent of 9d197210 (bruh moment from git)
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    compatible:
+    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - 1.3.1
+    - 1.3.2
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+=======
+    - 2.0.1-exp.1
+>>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    - 2.0.1-exp.1
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.33
@@ -739,10 +781,14 @@ m_ResolvedPackages:
     url: 
   category: Text Rendering
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: asset
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -851,9 +897,12 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 3.2.0-pre.4
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
@@ -861,9 +910,12 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 3.2.0-pre.4
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -889,10 +941,14 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   hideInEditor: 0
 =======
   hideInEditor: 1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  hideInEditor: 1
+>>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1000,9 +1056,12 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.8.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -1011,9 +1070,12 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.8.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1136,10 +1198,14 @@ m_ResolvedPackages:
     url: 
   category: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: tool
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1173,6 +1239,7 @@ m_ResolvedPackages:
     - 1.7.8
     - 1.8.0-pre.1
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.8.0
     compatible:
     - 1.7.8
@@ -1181,6 +1248,10 @@ m_ResolvedPackages:
     compatible:
     - 1.7.8
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    compatible:
+    - 1.7.8
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -1264,6 +1335,7 @@ m_ResolvedPackages:
     - 2.0.2
     - 2.0.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.0.4
     - 2.1.0-pre.1
     - 2.1.1
@@ -1274,6 +1346,11 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 0.0.6-preview
     - 0.9.0-preview
@@ -1297,6 +1374,7 @@ m_ResolvedPackages:
     - 2.0.2
     - 2.0.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.0.4
     - 2.1.0-pre.1
     - 2.1.1
@@ -1307,6 +1385,11 @@ m_ResolvedPackages:
     - 2.1.1
     - 2.2.0
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 
   dependencies:
   - name: com.unity.inputsystem
@@ -1392,10 +1475,14 @@ m_ResolvedPackages:
     url: 
   category: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: asset
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
@@ -1453,6 +1540,7 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 4.3.1
     compatible:
     - 4.2.0
@@ -1463,6 +1551,11 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.2.1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    compatible:
+    - 4.2.0
+    - 4.2.1
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1506,10 +1599,14 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   hideInEditor: 0
 =======
   hideInEditor: 1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  hideInEditor: 1
+>>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637769778170000000
   documentationUrl: 
@@ -1564,9 +1661,12 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.5.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.6.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.4.2
     - 1.5.0-exp.1
@@ -1574,9 +1674,12 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.5.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.6.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.4.2
   dependencies:
   - name: com.unity.xr.management
@@ -3530,18 +3633,24 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.4.4
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.3.0
     - 1.4.1
     - 1.4.2
     - 1.4.3
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.4.4
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.3.0
   dependencies:
   - name: com.unity.modules.uielements
@@ -3666,10 +3775,14 @@ m_ResolvedPackages:
     url: 
   category: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: asset
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: "Common utility classes for XR projects\nRefer to API documentation
     for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
     \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
@@ -3681,6 +3794,7 @@ m_ResolvedPackages:
   status: 4
   errors: []
   versions:
+<<<<<<< HEAD
 <<<<<<< HEAD
     all:
     - 2.0.0-pre.3
@@ -3708,6 +3822,10 @@ m_ResolvedPackages:
     all: []
     compatible: []
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+    all: []
+    compatible: []
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 
   dependencies:
   - name: com.unity.modules.xr
@@ -3737,6 +3855,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637810557940000000
@@ -3745,6 +3864,11 @@ m_ResolvedPackages:
   isAssetStorePackage: 0
   datePublishedTicks: 0
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+>>>>>>> parent of 9d197210 (bruh moment from git)
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3890,9 +4014,12 @@ m_ResolvedPackages:
     - 2.0.0-preview.5
     - 2.0.2-preview.1
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 2.2.0-preview.1
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     - 3.0.0-pre.1
     - 3.0.0-pre.2
     - 3.0.0-pre.4
@@ -3902,20 +4029,26 @@ m_ResolvedPackages:
     - 3.1.1
     - 3.2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 3.2.2-pre.1
     - 3.2.2
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 3.0.1
     - 3.0.2
     - 3.1.1
     - 3.2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 3.2.2-pre.1
     - 3.2.2
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 3.0.2
   dependencies:
   - name: com.unity.xr.management
@@ -4101,10 +4234,14 @@ m_ResolvedPackages:
     url: 
   category: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: asset
 =======
   type: 
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  type: 
+>>>>>>> parent of 9d197210 (bruh moment from git)
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4140,10 +4277,13 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.2.1
     - 1.2.2
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.0.1
     - 1.1.0
@@ -4157,10 +4297,13 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.2.1
     - 1.2.2
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -4191,10 +4334,14 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
 <<<<<<< HEAD
+<<<<<<< HEAD
   hideInEditor: 0
 =======
   hideInEditor: 1
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+  hideInEditor: 1
+>>>>>>> parent of 9d197210 (bruh moment from git)
   isAssetStorePackage: 0
   datePublishedTicks: 637594767130000000
   documentationUrl: 
@@ -4248,10 +4395,13 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.5.2
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.6.0
     - 1.7.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     compatible:
     - 1.4.0
     - 1.4.1
@@ -4259,10 +4409,13 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.5.2
 <<<<<<< HEAD
+<<<<<<< HEAD
     - 1.6.0
     - 1.7.0
 =======
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest

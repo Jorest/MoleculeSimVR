@@ -22,7 +22,7 @@ public class PlotCSV : MonoBehaviour
     public TextAsset csvFile;
     public float timeInterval = 0.2f;
     public int moleculeCount = 608;
-    public int multiplier = 5;
+    [SerializeField] public Vector3 multiplier;
 
     public List<MoleculeType> MoleculePrefabs;
 
@@ -36,14 +36,14 @@ public class PlotCSV : MonoBehaviour
 
     //matrix that holds all the data for each frame
     private List<List<float[]>> FloatMatrix = new List<List<float[]>>();
+     private List<List<float>> Velocities = new List<List<float>>();
     //holds a game object per molecule in the same order as the data
     private List<GameObject> Molecules = new List<GameObject>();     
- 
     
     void Start()
     {
        
-       //NOTE: as we get bigger simulations having a file for  each molecule type may be needed
+       //NOTEL: as we get bigger simulations having a file for  each molecule type may be needed
 
         //// Splitting the dataset in the end of line
         records = csvFile.text.Split('\n');
@@ -65,16 +65,20 @@ public class PlotCSV : MonoBehaviour
         //number of captures aka frames
         int frames = records.Length / moleculeCount;
       
-        //adds a List to the matrix for each capture , this will be populated by AssignData
+        //adds a List to the matrix for each capture , this will be populated by AssignData (AKA intizialising lists )
         for (int i = 0; i < frames; i++)
         {
             FloatMatrix.Add(new List<float[]>());
+            Velocities.Add(new List<float>());
         }
 
+        AssignData();
 
         Debug.Log("prefabs" + Molecules.Count);
         Debug.Log("frames" + frames);
-       
+
+
+        Debug.Log(records[0].Split(',')[0] +  "A" +  records[0].Split(',')[1] + "A" + records[0].Split(',')[2]);
 
     }
 
@@ -97,6 +101,20 @@ public class PlotCSV : MonoBehaviour
             // ading the data to the matrix
             FloatMatrix[index].Add(positions); 
 
+            //asign velocities after the first frame
+            if (i>0){
+                 float[] prev = new float[3];
+            prev[0] = float.Parse(records[i-1].Split(',')[0]);
+            prev[1] = float.Parse(records[i-1].Split(',')[1]);
+            prev[2] = float.Parse(records[i-1].Split(',')[2]);
+
+            float speed = Mathf.Abs(positions[0]-prev[0]) + Mathf.Abs(positions[1]-prev[1]) + Mathf.Abs(positions[2]-prev[2]) ;
+            Velocities[index].Add(speed);
+
+            }
+            else Velocities[index].Add(0); //asign velocity 0 to the first frame
+
+
 
         }
 
@@ -109,7 +127,7 @@ public class PlotCSV : MonoBehaviour
 
     public IEnumerator ANimateMolecules()
     {
-        for (int i = 0; i < FloatMatrix.Count-1; i++)// goes throw all the frames 
+        for (int i = 0; i < FloatMatrix.Count; i++)// goes throw all the frames 
         {
 
            
@@ -118,7 +136,7 @@ public class PlotCSV : MonoBehaviour
             {
                 
 
-                Molecules[j].transform.position = new Vector3(FloatMatrix[i][j][0] * multiplier, FloatMatrix[i][j][1] * multiplier, FloatMatrix[i][j][2]) * multiplier;
+                Molecules[j].transform.position = new Vector3(FloatMatrix[i][j][0] * multiplier.x, FloatMatrix[i][j][1] * multiplier.y, FloatMatrix[i][j][2] * multiplier.z);
             }
             
 
@@ -137,7 +155,6 @@ public class PlotCSV : MonoBehaviour
     public void StartAnimation (){
         
         if (started==false){
-            AssignData();
         StartCoroutine(ANimateMolecules());
         started = true;
         } else {
@@ -145,8 +162,7 @@ public class PlotCSV : MonoBehaviour
         }
     }
 
-    
-   
+
 
     // MoleculeTYpe (or atom type) stores how many exist on a given simulation and wich prefab is going to represent them
 

@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 6bc6ea5a (same)
 ,{ "pid":12345, "tid":0, "ts":1674570164709129, "dur":8570, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
@@ -3327,6 +3328,8 @@
 ,{ "pid":12345, "tid":0, "ts":1674476578447672, "dur":3810, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> ab26b650ede2869062ad68f9803336e3aaa0f6fc
 =======
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
 ,{ "pid":12345, "tid":0, "ts":1674567293431294, "dur":765, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1674567293432065, "dur":449, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1674567293432611, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -4910,7 +4913,10 @@
 ,{ "pid":12345, "tid":16, "ts":1674567293459062, "dur":543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1674567293459605, "dur":712357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1674567294174256, "dur":3632, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 >>>>>>> parent of 9d197210 (bruh moment from git)
 =======
 >>>>>>> parent of 6bc6ea5a (same)
+=======
+>>>>>>> parent of 9d197210 (bruh moment from git)
 ,

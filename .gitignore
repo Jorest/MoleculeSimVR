@@ -74,3 +74,6 @@ Library/ArtifactDB
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
  Library/ArtifactDB
+
+#data
+/Assets/interpolated.csv

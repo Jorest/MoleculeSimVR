@@ -1519,8 +1519,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bc9d7a292cc2a4aacfd64e3eb81b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: 0a8b8a396773c7d419b918cbc86762fa, type: 3}
-  timeInterval: 0.2
+  csvFile: {fileID: 4900000, guid: 6f0f05f99577c8846bb191a1e62a72a3, type: 3}
+  timeInterval: 0.02
   moleculeCount: 608
   multiplier: {x: 10, y: 10, z: 10}
   MoleculePrefabs:
@@ -1528,6 +1528,7 @@ MonoBehaviour:
     ammount: 384
   - element: {fileID: 889427564913162662, guid: 7a10551975f79a540b2c883307847cf8, type: 3}
     ammount: 224
+  heatInterval: 50
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

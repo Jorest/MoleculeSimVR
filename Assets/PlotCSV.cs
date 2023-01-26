@@ -34,9 +34,13 @@ public class PlotCSV : MonoBehaviour
     private bool pause = false ; 
     private bool started = false ;
 
-    //matrix that holds all the data for each frame
-    private List<List<float[]>> FloatMatrix = new List<List<float[]>>();
-     private List<List<float>> Velocities = new List<List<float>>();
+  
+    private List<List<float[]>> FloatMatrix = new List<List<float[]>>(); //matrix that holds all the data for each frame
+    private List<List<float>> AbsoluteDistance = new List<List<float>>();
+    private List<List<float>> IntervalDistance = new List<List<float>>(); //average distance every n frames
+    
+    [SerializeField] private int heatInterval = 50;
+    
     //holds a game object per molecule in the same order as the data
     private List<GameObject> Molecules = new List<GameObject>();     
     
@@ -69,8 +73,11 @@ public class PlotCSV : MonoBehaviour
         for (int i = 0; i < frames; i++)
         {
             FloatMatrix.Add(new List<float[]>());
-            Velocities.Add(new List<float>());
+            AbsoluteDistance.Add(new List<float>());
+            IntervalDistance.Add(new List<float>());
         }
+
+
 
         AssignData();
 
@@ -80,40 +87,54 @@ public class PlotCSV : MonoBehaviour
 
         Debug.Log(records[0].Split(',')[0] +  "A" +  records[0].Split(',')[1] + "A" + records[0].Split(',')[2]);
 
+        StartAnimation();
+
     }
 
     public void AssignData()
     {
 
-
+        float movementPerInterval = 0f;
         //go throw each line
-        for ( int i=0; i< records.Length-1;i++)
+        for (int i = 0; i < records.Length - 1; i++)
         {
-         //  adding x y z to positions
-         //NOTE: when getting more colums they should be added here
+            //  adding x y z to positions
+            //NOTE: when getting more colums they should be added here
             float[] positions = new float[3];
             positions[0] = float.Parse(records[i].Split(',')[0]);
             positions[1] = float.Parse(records[i].Split(',')[1]);
             positions[2] = float.Parse(records[i].Split(',')[2]);
             //index of wich frame we are on
-            int index = (int)Mathf.Floor  ( i/moleculeCount );
-     
+            int index = (int)Mathf.Floor(i / moleculeCount);
+
             // ading the data to the matrix
-            FloatMatrix[index].Add(positions); 
+            FloatMatrix[index].Add(positions);
 
-            //asign velocities after the first frame
-            if (i>0){
-                 float[] prev = new float[3];
-            prev[0] = float.Parse(records[i-1].Split(',')[0]);
-            prev[1] = float.Parse(records[i-1].Split(',')[1]);
-            prev[2] = float.Parse(records[i-1].Split(',')[2]);
+            //asign distances after the first frame
+            if (i > 0) {
+                float[] prev = new float[3];
+                prev[0] = float.Parse(records[i - 1].Split(',')[0]);
+                prev[1] = float.Parse(records[i - 1].Split(',')[1]);
+                prev[2] = float.Parse(records[i - 1].Split(',')[2]);
 
-            float speed = Mathf.Abs(positions[0]-prev[0]) + Mathf.Abs(positions[1]-prev[1]) + Mathf.Abs(positions[2]-prev[2]) ;
-            Velocities[index].Add(speed);
+                float speed = Mathf.Abs(positions[0] - prev[0]) + Mathf.Abs(positions[1] - prev[1]) + Mathf.Abs(positions[2] - prev[2]);
+                AbsoluteDistance[index].Add(speed);
+                movementPerInterval += speed;
 
             }
-            else Velocities[index].Add(0); //asign velocity 0 to the first frame
+            else AbsoluteDistance[index].Add(0); //asign distance 0 to the first frame
 
+
+            //calculating the average of the distances every n frames
+
+            if (index % heatInterval == 0)
+            {
+                //adding the average of the position change every n frames
+                IntervalDistance[index].Add(movementPerInterval / heatInterval);
+            } else
+            {
+                IntervalDistance[index].Add(-1f); //we add -1 to the intermidiate steps that we are not considering
+            }
 
 
         }

@@ -1519,9 +1519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bc9d7a292cc2a4aacfd64e3eb81b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: 607477387c75dab4a9372d3b02a01e6d, type: 3}
+  csvFile: {fileID: 4900000, guid: f0df01343157ccd44b13f27b07ddbbd2, type: 3}
   timeInterval: 0.02
-  colorVibration: 0
+  colorVibration: 1
   multiplier: {x: 10, y: 10, z: 10}
   MoleculePrefabs:
   - element: {fileID: 833275548885208973, guid: 0f012139300672b41af83e1fd382d3d8, type: 3}
@@ -1530,6 +1530,7 @@ MonoBehaviour:
   - element: {fileID: 889427564913162662, guid: 7a10551975f79a540b2c883307847cf8, type: 3}
     ammount: 224
     maxVibration: 0.0314
+  neutralMaterial: {fileID: 2100000, guid: 9e08f33ae222e714991e8991ad780676, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

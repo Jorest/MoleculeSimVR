@@ -23,10 +23,11 @@ public class PlotCSV : MonoBehaviour
     public float timeInterval = 0.2f;
     private int moleculeCount = 608;
     [SerializeField] private bool colorVibration;
-    [SerializeField] public Vector3 multiplier;
+    [SerializeField] private Vector3 multiplier;
 
     public List<MoleculeType> MoleculePrefabs;
 
+    [SerializeField] private Material neutralMaterial;
 
 
     float[] pos = new float[3];
@@ -57,6 +58,7 @@ public class PlotCSV : MonoBehaviour
         //initialize prefabs 
         foreach (MoleculeType type in MoleculePrefabs)
         {
+            type.element.GetComponent<Renderer>().material = neutralMaterial;
             moleculeCount += type.ammount;
             for (int i = 0; i < type.ammount; i++)
             {
@@ -156,14 +158,12 @@ public class PlotCSV : MonoBehaviour
                     Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
                     Material uniqueMaterial = renderer.material;
                     uniqueMaterial.EnableKeyword("_EMISSION");
-                    uniqueMaterial.SetColor("_EmissionColor", new Color(0, FloatMatrix[i][j][3] / Molecules[j].maxVibration, 0, 1));
+                    uniqueMaterial.SetColor("_EmissionColor", new Color(0, FloatMatrix[i][j][3] / Molecules[j].maxVibration, 0, 1)); //giving green emission based on atom vibration
                 }
                 
            
             }
             
-            
-
             while (pause == true ){
                 yield return null ;
             }

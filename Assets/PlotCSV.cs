@@ -21,7 +21,8 @@ public class PlotCSV : MonoBehaviour
 
     public TextAsset csvFile;
     public float timeInterval = 0.2f;
-    public int moleculeCount = 608;
+    private int moleculeCount = 608;
+    [SerializeField] private bool colorVibration;
     [SerializeField] public Vector3 multiplier;
 
     public List<MoleculeType> MoleculePrefabs;
@@ -36,13 +37,12 @@ public class PlotCSV : MonoBehaviour
 
   
     private List<List<float[]>> FloatMatrix = new List<List<float[]>>(); //matrix that holds all the data for each frame
-    private List<List<float>> AbsoluteDistance = new List<List<float>>();
+    private List<List<float>> Distances = new List<List<float>>(); //distance traveled by frame <molecule>
     private List<List<float>> IntervalDistance = new List<List<float>>(); //average distance every n frames
     
-    [SerializeField] private int heatInterval = 50;
     
     //holds a game object per molecule in the same order as the data
-    private List<GameObject> Molecules = new List<GameObject>();     
+    private List<Molecule> Molecules = new List<Molecule>();     
     
     void Start()
     {
@@ -51,18 +51,18 @@ public class PlotCSV : MonoBehaviour
 
         //// Splitting the dataset in the end of line
         records = csvFile.text.Split('\n');
-        Debug.Log(records[0]);
 
-
+        moleculeCount = 0;
 
         //initialize prefabs 
         foreach (MoleculeType type in MoleculePrefabs)
         {
+            moleculeCount += type.ammount;
             for (int i = 0; i < type.ammount; i++)
             {
 
                 GameObject mol1 = (GameObject)Instantiate(type.element, new Vector3(0, 0, 0), Quaternion.identity);
-                Molecules.Add(mol1);
+                Molecules.Add(new Molecule (mol1,type.maxVibration));
 
             }
         }
@@ -73,7 +73,7 @@ public class PlotCSV : MonoBehaviour
         for (int i = 0; i < frames; i++)
         {
             FloatMatrix.Add(new List<float[]>());
-            AbsoluteDistance.Add(new List<float>());
+            Distances.Add(new List<float>());
             IntervalDistance.Add(new List<float>());
         }
 
@@ -94,51 +94,41 @@ public class PlotCSV : MonoBehaviour
     public void AssignData()
     {
 
-        float movementPerInterval = 0f;
+
         //go throw each line
         for (int i = 0; i < records.Length - 1; i++)
         {
             //  adding x y z to positions
             //NOTE: when getting more colums they should be added here
-            float[] positions = new float[3];
-            positions[0] = float.Parse(records[i].Split(',')[0]);
-            positions[1] = float.Parse(records[i].Split(',')[1]);
-            positions[2] = float.Parse(records[i].Split(',')[2]);
+            float[] atomData = new float[4];
+            atomData[0] = float.Parse(records[i].Split(',')[0]);
+            atomData[1] = float.Parse(records[i].Split(',')[1]);
+            atomData[2] = float.Parse(records[i].Split(',')[2]);
+            atomData[3] = float.Parse(records[i].Split(',')[3]); //vibration A.K.A heat
+
             //index of wich frame we are on
             int index = (int)Mathf.Floor(i / moleculeCount);
 
             // ading the data to the matrix
-            FloatMatrix[index].Add(positions);
+            FloatMatrix[index].Add(atomData);
 
+          /**
+            NOW we have its own data colum from matlab
             //asign distances after the first frame
-            if (i > 0) {
+            if (index > 0) {
+
                 float[] prev = new float[3];
                 prev[0] = float.Parse(records[i - 1].Split(',')[0]);
                 prev[1] = float.Parse(records[i - 1].Split(',')[1]);
                 prev[2] = float.Parse(records[i - 1].Split(',')[2]);
 
-                float speed = Mathf.Abs(positions[0] - prev[0]) + Mathf.Abs(positions[1] - prev[1]) + Mathf.Abs(positions[2] - prev[2]);
-                AbsoluteDistance[index].Add(speed);
-                movementPerInterval += speed;
-
+                float distance = Mathf.Abs(positions[0] - prev[0]) + Mathf.Abs(positions[1] - prev[1]) + Mathf.Abs(positions[2] - prev[2]);
+                Distances[index].Add(distance);
             }
-            else AbsoluteDistance[index].Add(0); //asign distance 0 to the first frame
+            else Distances[index].Add(0); //asign distance 0 to the first frame
 
-
-            //calculating the average of the distances every n frames
-
-            if (index % heatInterval == 0)
-            {
-                //adding the average of the position change every n frames
-                IntervalDistance[index].Add(movementPerInterval / heatInterval);
-            } else
-            {
-                IntervalDistance[index].Add(-1f); //we add -1 to the intermidiate steps that we are not considering
-            }
-
-
+            **/            
         }
-
 
         // check to vefiry the data is well process
         Debug.Log("counted frames:  " + FloatMatrix.Count);
@@ -146,6 +136,7 @@ public class PlotCSV : MonoBehaviour
 
     }
 
+    
     public IEnumerator ANimateMolecules()
     {
         for (int i = 0; i < FloatMatrix.Count; i++)// goes throw all the frames 
@@ -157,8 +148,20 @@ public class PlotCSV : MonoBehaviour
             {
                 
 
-                Molecules[j].transform.position = new Vector3(FloatMatrix[i][j][0] * multiplier.x, FloatMatrix[i][j][1] * multiplier.y, FloatMatrix[i][j][2] * multiplier.z);
+                Molecules[j].gameobject.transform.position = new Vector3(FloatMatrix[i][j][0] * multiplier.x, FloatMatrix[i][j][1] * multiplier.y, FloatMatrix[i][j][2] * multiplier.z);
+                //change the color based on vibration
+                
+                if (colorVibration)
+                {
+                    Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
+                    Material uniqueMaterial = renderer.material;
+                    uniqueMaterial.EnableKeyword("_EMISSION");
+                    uniqueMaterial.SetColor("_EmissionColor", new Color(0, FloatMatrix[i][j][3] / Molecules[j].maxVibration, 0, 1));
+                }
+                
+           
             }
+            
             
 
             while (pause == true ){
@@ -184,6 +187,8 @@ public class PlotCSV : MonoBehaviour
     }
 
 
+   
+
 
     // MoleculeTYpe (or atom type) stores how many exist on a given simulation and wich prefab is going to represent them
 
@@ -193,7 +198,7 @@ public class PlotCSV : MonoBehaviour
 
         public GameObject element;
         public int ammount;
-
+        public float maxVibration;
 
         public MoleculeType(GameObject pref, int bul)
         {
@@ -201,6 +206,19 @@ public class PlotCSV : MonoBehaviour
             ammount = bul;
         }
     }
+
+    private class Molecule
+    {
+        public GameObject gameobject;
+        public float maxVibration;
+
+        public Molecule(GameObject go, float heat)
+        {
+            gameobject = go;
+            maxVibration = heat;
+        }
+    }
+
 }
 
 

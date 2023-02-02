@@ -21,8 +21,9 @@ public class PlotCSV : MonoBehaviour
 
     public TextAsset csvFile;
     public float timeInterval = 0.2f;
-    private int moleculeCount = 608;
-    [SerializeField] private bool colorVibration;
+    private int moleculeCount = 0;
+    [SerializeField] private bool highlightVibration ;
+    [SerializeField] private bool highlightSpeed;
     [SerializeField] private Vector3 multiplier;
 
     public List<MoleculeType> MoleculePrefabs;
@@ -53,18 +54,17 @@ public class PlotCSV : MonoBehaviour
         //// Splitting the dataset in the end of line
         records = csvFile.text.Split('\n');
 
-        moleculeCount = 0;
-
         //initialize prefabs 
         foreach (MoleculeType type in MoleculePrefabs)
-        {
-            type.element.GetComponent<Renderer>().material = neutralMaterial;
+        {            
+            GameObject atomCopy = (GameObject)Instantiate(type.element, new Vector3(0, 0, 0), Quaternion.identity);
+            if (highlightVibration) ChangeMat(atomCopy, neutralMaterial); //change the color of the instance 
+
             moleculeCount += type.ammount;
             for (int i = 0; i < type.ammount; i++)
             {
-
-                GameObject mol1 = (GameObject)Instantiate(type.element, new Vector3(0, 0, 0), Quaternion.identity);
-                Molecules.Add(new Molecule (mol1,type.maxVibration));
+                GameObject mol1 = (GameObject)Instantiate(atomCopy, new Vector3(0, 0, 0), Quaternion.identity);
+                Molecules.Add(new Molecule (mol1, type.maxVibration));
 
             }
         }
@@ -86,11 +86,13 @@ public class PlotCSV : MonoBehaviour
         Debug.Log("prefabs" + Molecules.Count);
         Debug.Log("frames" + frames);
 
-
-        Debug.Log(records[0].Split(',')[0] +  "A" +  records[0].Split(',')[1] + "A" + records[0].Split(',')[2]);
-
         StartAnimation();
 
+    }
+
+    public virtual void ChangeMat(GameObject ob, Material newMat)
+    {
+        ob.GetComponent<Renderer>().material = newMat;
     }
 
     public void AssignData()
@@ -102,11 +104,15 @@ public class PlotCSV : MonoBehaviour
         {
             //  adding x y z to positions
             //NOTE: when getting more colums they should be added here
-            float[] atomData = new float[4];
+            float[] atomData = new float[5];
             atomData[0] = float.Parse(records[i].Split(',')[0]);
             atomData[1] = float.Parse(records[i].Split(',')[1]);
             atomData[2] = float.Parse(records[i].Split(',')[2]);
             atomData[3] = float.Parse(records[i].Split(',')[3]); //vibration A.K.A heat
+
+            atomData[4] = float.Parse(records[i].Split(',')[6]); // highlight the particularly speedy ones
+
+
 
             //index of wich frame we are on
             int index = (int)Mathf.Floor(i / moleculeCount);
@@ -138,6 +144,17 @@ public class PlotCSV : MonoBehaviour
 
     }
 
+    public void CalcMaxVibration (List<List<float[]>> data , int colum)
+    {
+        for (int i = 0; i < FloatMatrix.Count; i++)
+        {
+            for (int j = 0; j < moleculeCount; j++)
+            {
+                
+            }
+        }
+    }
+
     
     public IEnumerator ANimateMolecules()
     {
@@ -149,18 +166,30 @@ public class PlotCSV : MonoBehaviour
             for (int j=0; j< moleculeCount; j++)
             {
                 
-
                 Molecules[j].gameobject.transform.position = new Vector3(FloatMatrix[i][j][0] * multiplier.x, FloatMatrix[i][j][1] * multiplier.y, FloatMatrix[i][j][2] * multiplier.z);
+                Molecules[j].doesGlow = ((int)FloatMatrix[i][j][4] == 1);
+               
                 //change the color based on vibration
-                
-                if (colorVibration)
+                if (highlightVibration)
                 {
                     Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
                     Material uniqueMaterial = renderer.material;
                     uniqueMaterial.EnableKeyword("_EMISSION");
                     uniqueMaterial.SetColor("_EmissionColor", new Color(0, FloatMatrix[i][j][3] / Molecules[j].maxVibration, 0, 1)); //giving green emission based on atom vibration
-                }
-                
+                }else if (highlightSpeed )
+                {
+                    Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
+                    Material uniqueMaterial = renderer.material;
+                    uniqueMaterial.EnableKeyword("_EMISSION");
+                    if (Molecules[j].doesGlow)
+                    {
+                        uniqueMaterial.SetColor("_EmissionColor", new Color(1, 1, 1, 1)); //giving green emission based on atom vibration 
+                    }else
+                    {
+                        uniqueMaterial.SetColor("_EmissionColor", new Color(0.02f, 0.02f, 0.02f, 1)); //giving green emission based on atom vibration 
+                    }
+                 
+                }     
            
             }
             
@@ -174,7 +203,7 @@ public class PlotCSV : MonoBehaviour
 
     }
 
-    //starts animation or pauses it after started
+    //starts animation or pauses it after started, we call this with the controll right trigger.
 
     public void StartAnimation (){
         
@@ -211,6 +240,7 @@ public class PlotCSV : MonoBehaviour
     {
         public GameObject gameobject;
         public float maxVibration;
+        public bool doesGlow = false;
 
         public Molecule(GameObject go, float heat)
         {

@@ -19,7 +19,7 @@ public class PlotCSV : MonoBehaviour
 {
 
 
-    public TextAsset csvFile;
+    [SerializeField]private TextAsset csvFile;
     public float timeInterval = 0.2f;
     private int moleculeCount = 0;
     [SerializeField] private bool highlightVibration ;
@@ -46,12 +46,37 @@ public class PlotCSV : MonoBehaviour
     //holds a game object per molecule in the same order as the data
     private List<Molecule> Molecules = new List<Molecule>();     
     
+    
+    /* ABOUT THE DATA: 
+
+    Each line represents the data of one Atom. The information of each line is separated by comma. 
+    The order of the data is given by caputes or ‘frames’ each frame containing the data of every Atom.
+    EG:
+
+    Frame 1 
+    Frame 2
+    ... 
+    Frame n 
+
+     Where Frame 1:
+
+    Atom1x,Atom1y,Atom1z,Atom1u,Atom1p
+    Atom2x,Atom2y,Atom1z,Atom2u,Atom2p
+    ...
+    AtomNx,AtomNy,AtomNz,AtomNu,AtomNp
+
+    */
+       
+
+    
+    
+    
     void Start()
     {
        
-       //NOTEL: as we get bigger simulations having a file for  each molecule type may be needed
 
-        //// Splitting the dataset in the end of line
+       //NOTE: as we get bigger simulations having a file for  each molecule type may be a good idea
+        // Splitting the dataset in the end of line
         records = csvFile.text.Split('\n');
 
         //initialize prefabs 
@@ -61,13 +86,16 @@ public class PlotCSV : MonoBehaviour
             if (highlightVibration) ChangeMat(atomCopy, neutralMaterial); //change the color of the instance 
 
             moleculeCount += type.ammount;
-            for (int i = 0; i < type.ammount; i++)
+            for (int i = 0; i < type.ammount ; i++)
             {
                 GameObject mol1 = (GameObject)Instantiate(atomCopy, new Vector3(0, 0, 0), Quaternion.identity);
                 Molecules.Add(new Molecule (mol1, type.maxVibration));
 
             }
+            Destroy(atomCopy);
         }
+        
+
         //number of captures aka frames
         int frames = records.Length / moleculeCount;
       
@@ -83,7 +111,7 @@ public class PlotCSV : MonoBehaviour
 
         AssignData();
 
-        Debug.Log("prefabs" + Molecules.Count);
+        Debug.Log("molecules:" + Molecules.Count);
         Debug.Log("frames" + frames);
 
         StartAnimation();
@@ -120,27 +148,12 @@ public class PlotCSV : MonoBehaviour
             // ading the data to the matrix
             FloatMatrix[index].Add(atomData);
 
-          /**
-            NOW we have its own data colum from matlab
-            //asign distances after the first frame
-            if (index > 0) {
-
-                float[] prev = new float[3];
-                prev[0] = float.Parse(records[i - 1].Split(',')[0]);
-                prev[1] = float.Parse(records[i - 1].Split(',')[1]);
-                prev[2] = float.Parse(records[i - 1].Split(',')[2]);
-
-                float distance = Mathf.Abs(positions[0] - prev[0]) + Mathf.Abs(positions[1] - prev[1]) + Mathf.Abs(positions[2] - prev[2]);
-                Distances[index].Add(distance);
-            }
-            else Distances[index].Add(0); //asign distance 0 to the first frame
-
-            **/            
+              
         }
 
-        // check to vefiry the data is well process
+        // check to vefiry the data matches
         Debug.Log("counted frames:  " + FloatMatrix.Count);
-        Debug.Log("counted molecule pos:  " + FloatMatrix[0].Count);
+        Debug.Log("counted molecules:  " + FloatMatrix[0].Count);
 
     }
 

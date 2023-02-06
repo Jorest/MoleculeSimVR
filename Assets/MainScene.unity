@@ -392,7 +392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 3
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.02
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 3
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -1602,10 +1602,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bc9d7a292cc2a4aacfd64e3eb81b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: 4b9470fff6bacbc4b87685508667e5b5, type: 3}
+  csvFile: {fileID: 4900000, guid: 73d8438f0800e4c4cb65c701a90fb053, type: 3}
   timeInterval: 0.02
-  highlightVibration: 1
-  highlightSpeed: 0
+  highlightVibration: 0
+  highlightSpeed: 1
   multiplier: {x: 10, y: 10, z: 10}
   MoleculePrefabs:
   - element: {fileID: 992614929544630595, guid: 41742e6af091719439855090ade769e2, type: 3}

@@ -15,8 +15,8 @@ This is a VR application that simulates the behavior of atoms given a dataset; i
 ![image](https://user-images.githubusercontent.com/8094167/216994457-8f65b221-a866-463a-b1bd-581a6b43b5ce.png)
 
 
+![image](https://user-images.githubusercontent.com/8094167/216998162-2d0a1aab-2c53-43ff-bac5-d28a16921381.png)
 
-![image](https://user-images.githubusercontent.com/8094167/216997134-a23325c5-75dc-41c8-af71-dc5834c70927.png)
 
 
 

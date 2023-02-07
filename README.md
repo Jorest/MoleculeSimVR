@@ -13,6 +13,7 @@ This is a VR application that simulates the behavior of atoms given a dataset; i
 - You can move and fly around using any VR controller supported by openAR
 
 ![image](https://user-images.githubusercontent.com/8094167/216994457-8f65b221-a866-463a-b1bd-581a6b43b5ce.png)
+
 (the max vibration field is there in order to normalize the emission value)
 
 

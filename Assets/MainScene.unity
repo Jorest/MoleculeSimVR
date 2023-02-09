@@ -1606,12 +1606,13 @@ MonoBehaviour:
   timeInterval: 0.02
   highlightVibration: 0
   highlightSpeed: 1
-  multiplier: {x: 10, y: 10, z: 10}
+  multiplier: {x: 20, y: 20, z: 20}
+  cubePlot: 1
   MoleculePrefabs:
   - element: {fileID: 992614929544630595, guid: 41742e6af091719439855090ade769e2, type: 3}
     ammount: 384
     maxVibration: 0.0713
-  - element: {fileID: 889427564913162662, guid: 7a10551975f79a540b2c883307847cf8, type: 3}
+  - element: {fileID: 5396987550636529001, guid: 6b887fe9fe2f7ed46859a4bf50d8a20a, type: 3}
     ammount: 224
     maxVibration: 0.0314
   neutralMaterial: {fileID: 2100000, guid: 9e08f33ae222e714991e8991ad780676, type: 2}
@@ -2114,7 +2115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932202992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.89, y: -2.9223998, z: -4.08}
+  m_LocalPosition: {x: 3.89, y: 4.23, z: -2.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

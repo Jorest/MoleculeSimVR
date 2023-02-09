@@ -19,12 +19,13 @@ public class PlotCSV : MonoBehaviour
 {
 
 
-    [SerializeField]private TextAsset csvFile;
+    [SerializeField] private TextAsset csvFile;
     public float timeInterval = 0.2f;
     private int moleculeCount = 0;
-    [SerializeField] private bool highlightVibration ;
+    [SerializeField] private bool highlightVibration;
     [SerializeField] private bool highlightSpeed;
     [SerializeField] private Vector3 multiplier;
+    [SerializeField] private bool cubePlot=false; 
 
     public List<MoleculeType> MoleculePrefabs;
 
@@ -114,9 +115,34 @@ public class PlotCSV : MonoBehaviour
         Debug.Log("molecules:" + Molecules.Count);
         Debug.Log("frames" + frames);
 
-        StartAnimation();
+
+      //  StartAnimation();
 
     }
+
+
+    public void InitializeObjects(List<Molecule> mols )
+    {
+
+        //initialize prefabs 
+        foreach (MoleculeType type in MoleculePrefabs)
+        {
+            GameObject atomCopy = (GameObject)Instantiate(type.element, new Vector3(0, 0, 0), Quaternion.identity);
+            if (highlightVibration) ChangeMat(atomCopy, neutralMaterial); //change the color of the instance 
+
+           
+            for (int i = 0; i < type.ammount; i++)
+            {
+                GameObject mol1 = (GameObject)Instantiate(atomCopy, new Vector3(0, 0, 0), Quaternion.identity);
+                mols.Add(new Molecule(mol1, type.maxVibration));
+
+            }
+            Destroy(atomCopy);
+        }
+
+    }
+
+
 
     public virtual void ChangeMat(GameObject ob, Material newMat)
     {
@@ -188,7 +214,7 @@ public class PlotCSV : MonoBehaviour
                     Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
                     Material uniqueMaterial = renderer.material;
                     uniqueMaterial.EnableKeyword("_EMISSION");
-                    uniqueMaterial.SetColor("_EmissionColor", new Color(0, FloatMatrix[i][j][3] / Molecules[j].maxVibration, 0, 1)); //giving green emission based on atom vibration
+                    uniqueMaterial.SetColor("_EmissionColor", new Color(FloatMatrix[i][j][3] / Molecules[j].maxVibration,0, 0, 1)); //giving red emission based on atom vibration
                 }else if (highlightSpeed )
                 {
                     Renderer renderer = Molecules[j].gameobject.GetComponent<Renderer>();
@@ -216,16 +242,177 @@ public class PlotCSV : MonoBehaviour
 
     }
 
+    //Overload where you can shif the position on each axis
+    public IEnumerator ANimateMolecules(int xShift, int yShift ,int zShift )
+    {
+        
+        List<Molecule> MoleculeClones = new List<Molecule>();
+
+        InitializeObjects(MoleculeClones);
+
+        for (int i = 0; i < FloatMatrix.Count; i++)// goes throw all the frames 
+        {
+
+
+            //postion all molecules ;
+            for (int j = 0; j < moleculeCount; j++)
+            {
+                MoleculeClones[j].gameobject.transform.position = new Vector3(   (FloatMatrix[i][j][0]+xShift) * multiplier.x, (FloatMatrix[i][j][1]+yShift) * multiplier.y, (FloatMatrix[i][j][2]+zShift) * multiplier.z);
+                MoleculeClones[j].doesGlow = ((int)FloatMatrix[i][j][4] == 1);
+
+                //change the color based on vibration
+                if (highlightVibration)
+                {
+                    Renderer renderer = MoleculeClones[j].gameobject.GetComponent<Renderer>();
+                    Material uniqueMaterial = renderer.material;
+                    uniqueMaterial.EnableKeyword("_EMISSION");
+                    uniqueMaterial.SetColor("_EmissionColor", new Color(FloatMatrix[i][j][3] / MoleculeClones[j].maxVibration,0, 0, 1)); //giving red emission based on atom vibration
+                }
+                else if (highlightSpeed)
+                {
+                    Renderer renderer = MoleculeClones[j].gameobject.GetComponent<Renderer>();
+                    Material uniqueMaterial = renderer.material;
+                    uniqueMaterial.EnableKeyword("_EMISSION");
+                    if (MoleculeClones[j].doesGlow)
+                    {
+                        uniqueMaterial.SetColor("_EmissionColor", new Color(1, 1, 1, 1)); //giving green emission based on atom vibration 
+                    }
+                    else
+                    {
+                        uniqueMaterial.SetColor("_EmissionColor", new Color(0.02f, 0.02f, 0.02f, 1)); //giving green emission based on atom vibration 
+                    }
+
+                }
+
+            }
+
+            while (pause == true)
+            {
+                yield return null;
+            }
+            yield return new WaitForSeconds(timeInterval);
+
+
+        }
+
+    }
+
+
+
     //starts animation or pauses it after started, we call this with the controll right trigger.
+
+
+    public void SuperAnimate()
+    {
+
+        if (started == false)
+        {
+            StartCoroutine(ANimateMolecules(1,  1,  1));
+            StartCoroutine(ANimateMolecules(1,  1, -1));
+            StartCoroutine(ANimateMolecules(1,  1,  0));
+            StartCoroutine(ANimateMolecules(1, -1,  1));
+            StartCoroutine(ANimateMolecules(1, -1, -1));
+            StartCoroutine(ANimateMolecules(1, -1,  0));
+            StartCoroutine(ANimateMolecules(1,  0,  1));
+            StartCoroutine(ANimateMolecules(1,  0, -1));
+            StartCoroutine(ANimateMolecules(1,  0,  0));
+
+            StartCoroutine(ANimateMolecules(-1, 1, 1));
+            StartCoroutine(ANimateMolecules(-1, 1, -1));
+            StartCoroutine(ANimateMolecules(-1, 1, 0));
+            StartCoroutine(ANimateMolecules(-1, -1, 1));
+            StartCoroutine(ANimateMolecules(-1, -1, -1));
+            StartCoroutine(ANimateMolecules(-1, -1, 0));
+            StartCoroutine(ANimateMolecules(-1, 0, 1));
+            StartCoroutine(ANimateMolecules(-1, 0, -1));
+            StartCoroutine(ANimateMolecules(-1, 0, 0));
+
+            StartCoroutine(ANimateMolecules(0, 1, 1));
+            StartCoroutine(ANimateMolecules(0, 1, -1));
+            StartCoroutine(ANimateMolecules(0, 1, 0));
+            StartCoroutine(ANimateMolecules(0, -1, 1));
+            StartCoroutine(ANimateMolecules(0, -1, -1));
+            StartCoroutine(ANimateMolecules(0, -1, 0));
+            StartCoroutine(ANimateMolecules(0, 0, 1));
+            StartCoroutine(ANimateMolecules(0, 0, -1));
+            StartCoroutine(ANimateMolecules(0, 0, 0));
+            started = true;
+        }
+        else
+        {
+            pause = !pause;
+        }
+    }
+
+
+    public void CubeAnimate()
+    {
+
+        if (started == false)
+        {
+            StartCoroutine(ANimateMolecules(1, 1, 1));
+            StartCoroutine(ANimateMolecules(1, 1, 0));
+            StartCoroutine(ANimateMolecules(1, 0, 1));
+            StartCoroutine(ANimateMolecules(1, 0, 0));
+
+
+            StartCoroutine(ANimateMolecules(0, 1, 1));
+            StartCoroutine(ANimateMolecules(0, 1, 0));
+            StartCoroutine(ANimateMolecules(0, 0, 1));
+            StartCoroutine(ANimateMolecules(0, 0, 0));
+            started = true;
+        }
+        else
+        {
+            pause = !pause;
+        }
+    }
+
+
+
+
 
     public void StartAnimation (){
         
-        if (started==false){
-        StartCoroutine(ANimateMolecules());
-        started = true;
-        } else {
-           pause = !pause; 
+            if (cubePlot)
+        {
+            if (started == false)
+            {
+                StartCoroutine(ANimateMolecules(1, 1, 1));
+                StartCoroutine(ANimateMolecules(1, 1, 0));
+                StartCoroutine(ANimateMolecules(1, 0, 1));
+                StartCoroutine(ANimateMolecules(1, 0, 0));
+
+
+                StartCoroutine(ANimateMolecules(0, 1, 1));
+                StartCoroutine(ANimateMolecules(0, 1, 0));
+                StartCoroutine(ANimateMolecules(0, 0, 1));
+                StartCoroutine(ANimateMolecules(0, 0, 0));
+                started = true;
+            }
+            else
+            {
+                pause = !pause;
+            }
+        }else
+        {
+
+            if (started == false)
+            {
+                StartCoroutine(ANimateMolecules());
+                started = true;
+            }
+            else
+            {
+                pause = !pause;
+            }
         }
+
+       
+        
+        
+        
+        
     }
 
 
@@ -249,7 +436,7 @@ public class PlotCSV : MonoBehaviour
         }
     }
 
-    private class Molecule
+    public class Molecule
     {
         public GameObject gameobject;
         public float maxVibration;

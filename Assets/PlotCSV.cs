@@ -373,8 +373,8 @@ public class PlotCSV : MonoBehaviour
 
 
     public void StartAnimation (){
-        
-            if (cubePlot)
+
+        if (cubePlot)
         {
             if (started == false)
             {

@@ -1602,7 +1602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bc9d7a292cc2a4aacfd64e3eb81b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csvFile: {fileID: 4900000, guid: 73d8438f0800e4c4cb65c701a90fb053, type: 3}
+  csvFile: {fileID: 4900000, guid: 4b9470fff6bacbc4b87685508667e5b5, type: 3}
   timeInterval: 0.02
   highlightVibration: 0
   highlightSpeed: 1

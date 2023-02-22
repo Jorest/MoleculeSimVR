@@ -826,6 +826,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0e36e5a1-a986-453a-830b-759ca5914ad8",
+                    "path": "<WMRSpatialController>/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "150f414f-61bf-47b1-b4f8-f772a2a40565",
                     "path": "<XRController>{RightHand}/trigger",
                     "interactions": "",

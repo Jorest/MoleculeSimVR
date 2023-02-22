@@ -3,6 +3,10 @@
 This is a VR application that simulates the behavior of atoms given a dataset; in Unity3D. You can assign different prefabs to different atom elements. 
 
 
+## VR Chat version
+
+Currently I am working on a version that works on VRChat. I decided to host it in a different repository because the project become very different with Unity 2019 + Udon. https://github.com/Jorest/MoleculeSim-VRChat/tree/master
+
 ## Features:
 
 - Set atoms to glow at a specific frame
